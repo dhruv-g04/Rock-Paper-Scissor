@@ -1,0 +1,147 @@
+body {
+  background-color: #393e46;
+}
+
+.container {
+  width: 100%;
+  height: 98vh;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  /* gap:200px; */
+}
+
+.box {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 90%; */
+  margin-top: 0;
+}
+.gridbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  margin: 0 30px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  grid-column: span 2;
+}
+.name img{
+  width: 50px;
+  height: 50px;
+}
+#result {
+  font-size: 2rem;
+  color:  pink;
+  grid-column: span 2;
+  margin: 20px 0;
+  font-weight: 900;
+  font-family: "Indie Flower", cursive;
+}
+#reset {
+  grid-column: span 2;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.plbox {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  margin: 0 20px;
+  border: 5px dashed rgb(168, 161, 161);
+  grid-column: 2;
+  border-radius: 50px;
+  box-shadow: 0px 0px 25px black;
+}
+.plbox img{
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  box-shadow: 0px 0px 15px rgb(255,192,203,0.7);
+  background-color:rgb(255, 255, 255,0.1);
+  border-radius: 30px;
+  width: 150px;
+  transition: all 0.3s ease;
+}
+
+#plyOption button:hover {
+  width: 155px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Lobster", cursive;
+  text-shadow: 0px 0px 40px rgb(255,192,203,0.7);
+  font-size: 6rem;
+  color: #4ecca3;
+}
+h3{
+  margin-top:0 ;
+  font-size: 1.5rem;
+}
+
+#logo {
+  width: 8rem;
+}
+
+p {
+  font-size: 3rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+}
+
+img {
+  width: 80%;
+}
+
+a {
+  font-size: 1.3rem;
+  color: #4ecca3;
+  /* background-color: #3f5a51; */
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  border: 2px solid #4ecca3;
+  border-radius: 50px;
+  font-size: 2rem;
+  padding: 0px 10px;
+  font-family:cursive ;
+}
+a:hover {
+  /* font-size: 2rem; */
+  color: pink;
+  background-color: #4ecca3;
+  /* padding: 2px; */
+  border-color: pink;
+  box-shadow: 0px 0px 15px #dfd3e0;
+}
+.pressed {
+  box-shadow: 0 0 20px #dcb4df;
+  background-color: black;
+  width: 140px !important;
+}
+
+.footer {
+  
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
