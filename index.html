@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" type="image" href="./images/WebLogo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>
+          <img id="logo" src="./images/Logo.png" alt="" /> Rock Paper Scissor
+        </h1>
+      </div>
+
+      <div class="box">
+        <div class="option" id="plyOption">
+          <button id="img11"><img src="/images/img11.png" alt="" /></button>
+          <button id="img12"><img src="images/img12.png" alt="" /></button>
+          <button id="img13"><img src="images/img13.png" alt="" /></button>
+        </div>
+        <div class="gridbox">
+          <div class="name">
+            <p>Human</p>
+            <img src="images/vs.png" alt="" />
+            <p>Computer</p>
+          </div>
+          <div class="player">
+            <h3>Score: <span></span></h3>
+            <div class="plbox" id="plyImg">
+              <img src="images/All.png" alt="" />
+            </div>
+          </div>
+          <div class="computer">
+            <h3>Score: <span></span></h3>
+            <div class="plbox" id="comImg">
+              <img src="images/All.png" alt="" />
+            </div>
+          </div>
+          <div id="result"></div>
+          <div id="reset"><a href="#">Reset</a></div>
+        </div>
+        <div class="option">
+          <button id="img21"><img src="/images/img21.png" alt="" /></button>
+          <button id="img22"><img src="images/img22.png" alt="" /></button>
+          <button id="img23"><img src="images/img23.png" alt="" /></button>
+        </div>
+      </div>
+
+      <div class="footer">
+        © 2023 Dhruv Gupta
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</html>
