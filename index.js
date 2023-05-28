@@ -2,8 +2,8 @@ var num1 = 0;
 var num2 = 0;
 var plyScore = 0;
 var comScore = 0;
-var start = 0;
 var buttonpress = 0;
+var start = 0;
 
 
 $("#reset").click(function () {
@@ -36,8 +36,6 @@ function putImg(idname) {
     document.querySelector("#plyImg img").setAttribute("src", "images/" + idname + ".png");
     document.querySelector("#comImg img").setAttribute("src", "images/img2" + num2 + ".png");
 }
-
-
 
 function result(num1, num2) {
     if (num1 === num2) {
